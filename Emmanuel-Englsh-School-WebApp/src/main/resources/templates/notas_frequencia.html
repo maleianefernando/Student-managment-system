@@ -37,6 +37,13 @@
                 </ul>
             </div>
         </div>
+
+        <div class="logged-user">
+            <div sec:authentication="principal.fullName" class="username"></div>
+            <div class="user-icon" id="user-icon">
+                <i class="bi bi-person-circle"></i>
+            </div>
+        </div>
     </nav>
 
     <main class="main-container">

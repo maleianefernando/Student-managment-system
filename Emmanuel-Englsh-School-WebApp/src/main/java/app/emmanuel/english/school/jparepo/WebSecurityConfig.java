@@ -36,7 +36,7 @@ public class WebSecurityConfig {
     SecurityFilterChain configure(HttpSecurity http) throws Exception {
         http.authenticationProvider(authenticationProvider());
 
-        http.authorizeHttpRequests(auth -> auth.requestMatchers("/estudante/home").authenticated()
+        http.authorizeHttpRequests(auth -> auth.requestMatchers("/estudante/home", "/portal_do_estudante", "/portal_do_estudante/notas-frequencia", "/portal_do_estudante/proprinas","portal_do_estudante/cronograma_de_actividades", "/minha_conta/meus_dados", "/minha_conta/alterar_palavra_passe").authenticated()
         .anyRequest().permitAll()
         )
         .formLogin(login -> login.usernameParameter("email")
