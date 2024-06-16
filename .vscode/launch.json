@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "EmmanuelEnglshSchoolApplication",
+            "request": "launch",
+            "mainClass": "app.emmanuel.english.school.EmmanuelEnglshSchoolApplication"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EmmanuelEnglshSchoolApplication<Emmanuel-Englsh-School>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "app.emmanuel.english.school.EmmanuelEnglshSchoolApplication",
+            "projectName": "Emmanuel-Englsh-School",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
