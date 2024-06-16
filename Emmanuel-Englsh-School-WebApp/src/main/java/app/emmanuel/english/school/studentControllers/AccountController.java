@@ -28,13 +28,21 @@ public class AccountController {
     @PostMapping("/alterar_palavra_passe")
     public String changePassword(@ModelAttribute User user){
         String [] password = user.getPassword().split(",");
-        if(password[1].equals("")){
+
+        if(!password[1].equals("") && !(password[1].length() < 6) && !password[0].equals(password[1])) {
+            if(password[0].equals(getUser().getPassword())){
+                System.out.println(user.getPassword());
+                userRepo.save(user);
+            }
+            
+        }
+        else if(password[1].equals("")){
 
         }
         else if (password[1].length() < 6){
 
         }
-        
+
         if(password[0].equals(password[1])){
             System.out.println("As palavras passes sao iguais");
         }
