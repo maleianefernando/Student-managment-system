@@ -30,7 +30,9 @@ public class AccountController {
         String [] password = user.getPassword().split(",");
 
         if(!password[1].equals("") && !(password[1].length() < 6) && !password[0].equals(password[1])) {
+            
             if(password[0].equals(getUser().getPassword())){
+
                 System.out.println(user.getPassword());
                 userRepo.save(user);
             }
