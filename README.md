@@ -32,8 +32,10 @@ git clone https://github.com/maleianefernando/Student-managment-system.git
 #### 2. Import the database
 Into the ```/Emmanuel Englsh School/Emmanuel-Englsh-School-WebApp/src/main/resources/static/sql``` directory we can access the application database, import it to your xampp server or sql.
 
-#### 3. Open your IDE to install dependencies
-#### 4. Access the using the command-line
+#### 3. Install dependencies
+Open you IDE to and go to the pom.xml file to install dependencies
+#### 4. Build and run
+Access the app using the command-line-interface:
 ```
 cd Emmanuel Englsh School/Emmanuel-Englsh-School-WebApp
 ```
@@ -45,12 +47,14 @@ Run the app:
 ```
 ./mvnw spring-boot:run
 ```
+##### Run option
+If your are machine are not able to run the app using this commands tou can just run on your IDE going to the run button.
 
 #### 5. Login Process
 Now [http://localhost:9090/](http://localhost:9090/) open your browser and sign in any account.
 
 ##### 6. Credentials
-The username is the name of the student and the password is the student birthdate in the format ```ddmmyyy```
+The username is the name of the student and the password is the student birthdate in the format ```ddmmyyy```.
 
 ## Author
 Fernando Paulo Maleiane
