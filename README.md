@@ -29,7 +29,10 @@ There is an admin appliation that allows users to register new students, new tea
 ```
 git clone https://github.com/maleianefernando/Student-managment-system.git
 ```
-#### 2. Import the database
+#### 2. Database
+##### Import the database
+Database file: ```emmanuel_english_school_web.sql```
+
 Into the ```/Emmanuel Englsh School/Emmanuel-Englsh-School-WebApp/src/main/resources/static/sql``` directory we can access the application database, import it to your xampp server or sql.
 
 #### 3. Install dependencies
