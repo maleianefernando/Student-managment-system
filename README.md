@@ -2,6 +2,11 @@
 ## Student Portal
 This system allows students to have access to their academic data as well as their attendance and average grades.
 
+## Admin Application
+There is an admin appliation that allows users to register new students, new teachers, and publish student performance
+
+- You can access the admin application in this link [https://github.com/maleianefernando/EESAdminApp.git](https://github.com/maleianefernando/EESAdminApp.git)
+
 ## Table of contents
 - [How to use](#how-to-use)
 - [Requirements](#requirements)
