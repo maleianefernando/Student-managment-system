@@ -57,7 +57,11 @@ If your are machine are not able to run the app using this commands tou can just
 Now [http://localhost:9090/](http://localhost:9090/) open your browser and sign in any account.
 
 ##### 6. Credentials
-The username is the name of the student and the password is the student birthdate in the format ```ddmmyyy```.
+- The username is the name of the student and the password is the student birthdate in the format ```ddmmyyy```.
+- You can find this credentials on the ```estudante``` table
+
+#### 7. Logout Process
+- To logout the application just request the ```/logout``` api endpoint: [http://localhost:9090/logout](http://localhost:9090/logout)
 
 ## Author
 Fernando Paulo Maleiane
